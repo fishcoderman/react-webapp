@@ -10,7 +10,7 @@
     "qs": "^6.9.1",
     "rc-queue-anim": "^1.5.0",
     "react": "16.4.1",
-    "react-dom": "16.4.1",
+    "react-dom": "16.12.0",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.2.2",
     "redux": "^3.7.2",
