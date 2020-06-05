@@ -131,9 +131,9 @@ export function get(url, params, config){
  * @param {String} url [请求的url地址] 
  * @param {Object} params [请求时携带的参数]  //
  */
-export function post(url, params, config) {
+export function post(url, data, config) {
   return new Promise((resolve, reject) => {
-    service.post(url, QS.stringify(params), config)
+    service.post(url, QS.stringify(data), config)
     .then(res => {
       resolve(res.data);
     })
